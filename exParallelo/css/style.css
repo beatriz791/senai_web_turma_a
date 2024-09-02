@@ -31,12 +31,48 @@ nav ul li{
     font-size: 16px;
     font-family: Montserrat, sans-serif;
     list-style: none;
-    
+    text-align: center;
+   
 }
 
 nav ul{
     display:flex;
-    flex-direction: center;
-    padding: 10px;
-    margin-right: 5px;
+    flex-direction: row;
+    padding: 0;
+    margin:0;
+}
+
+nav ul li a{
+    color: white;
+    padding:55px 20px 55px 0;
+    float: left; 
+}
+
+nav #menu_principal{
+float: right;
+}
+
+#menu_principal li span{
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    color: rgb(134, 134, 134);
+    margin-top: 60px;
+    margin-right: 3px;
+    float: left;
+}
+
+#menu_principal li a{
+    color:white;
+    font-size: 14px;
+}
+
+nav ul li:hover{
+    background-color: rgb(236, 236, 113);
+}
+
+/*------------------- Trabalhos -------------------*/
+
+#TRABALHOS header{
+    background-color: blue;
+    
 }
