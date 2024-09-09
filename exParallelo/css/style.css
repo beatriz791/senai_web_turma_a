@@ -95,6 +95,93 @@ section {
     width: 100%; /* Define a largura da seção para 100% do contêiner pai */
     height: 500px; /* Define a altura da seção para 500 pixels */
     background-repeat: repeat-x; /* Faz a imagem de fundo se repetir horizontalmente */
+    padding-top: 100px;
+}
+
+
+.icons {
+    height: 120px; /* Define a altura do contêiner das ícones como 120px */
+    width: 345px; /* Define a largura do contêiner das ícones como 345px */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    display: flex; /* Utiliza o layout flexível para os itens filhos */
+    flex-direction: row; /* Alinha os itens filhos em uma linha */
+}
+
+.txt {
+    height: 100px; /* Define a altura do contêiner de texto como 100px */
+    width: 100%; /* Define a largura do contêiner de texto como 100% do contêiner pai */
+}
+
+.icons .icon img {
+    width: 110px; /* Define a largura das imagens dentro do contêiner .icon como 110px */
+}
+
+.txt h6 {
+    font-size: 28px; /* Define o tamanho da fonte do texto h6 como 28px */
+    font-weight: 300; /* Define o peso da fonte como 300 (leve) */
+    width: 80%; /* Define a largura do texto h6 como 80% do contêiner pai */
+    display: inline-block; /* Exibe o texto h6 como um bloco inline */
+    font-family: 'Roboto Slab', serif; /* Define a fonte do texto h6 como 'Roboto Slab' */
+    text-align: center; /* Centraliza o texto h6 */
+    margin: 0; /* Remove as margens ao redor do texto h6 */
+    line-height: 40px; /* Define a altura da linha do texto h6 como 40px */
+    margin-left: 80px; /* Define a margem esquerda do texto h6 como 80px */
+    margin-top: 95px; /* Define a margem superior do texto h6 como 95px */
+    /* mudar a fonte */
+}
+
+.txt {
+    width: 850px; /* Define a largura do contêiner de texto como 850px */
+    margin: 0 auto; /* Centraliza o contêiner de texto horizontalmente */
+}
+
+.nossos {
+    width: 300px; /* Define a largura do contêiner .nossos como 300px */
+    margin: 0 auto; /* Centraliza o contêiner .nossos horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do contêiner .nossos */
+}
+
+.nossos h3 {
+    font-family: Montserrat, sans-serif; /* Define a fonte do texto h3 como Montserrat */
+    margin: 0; /* Remove as margens ao redor do texto h3 */
+    margin-top: 90px; /* Define a margem superior do texto h3 como 90px */
+    font-size: 24px; /* Define o tamanho da fonte do texto h3 como 24px */
+    color: #e7a920; /* Define a cor do texto h3 como #e7a920 (dourado) */
+    text-transform: uppercase; /* Transforma o texto h3 em letras maiúsculas */
+    letter-spacing: 11px; /* Define o espaçamento entre as letras do texto h3 como 11px */
+    font-weight: 300; /* Define o peso da fonte do texto h3 como 300 (leve) */
+}
+
+.projetos {
+    width: 800px; /* Define a largura do contêiner .projetos como 800px */
+    height: 100px; /* Define a altura do contêiner .projetos como 100px */
+    margin: -14px auto; /* Define a margem superior como -14px e centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do contêiner .projetos */
+}
+
+.projetos h1 {
+    font-family: Montserrat, sans-serif; /* Define a fonte do texto h1 como Montserrat */
+    margin: 0; /* Remove as margens ao redor do texto h1 */
+    margin-top: 0px; /* Define a margem superior do texto h1 como 0px */
+    font-size: 85px; /* Define o tamanho da fonte do texto h1 como 85px */
+    color: #000000; /* Define a cor do texto h1 como preto */
+    text-transform: uppercase; /* Transforma o texto h1 em letras maiúsculas */
+    font-weight: 800; /* Define o peso da fonte do texto h1 como 800 (negrito) */
+}
+
+.dark-wave {
+    width: 800px; /* Define a largura do contêiner .dark-wave como 800px */
+    height: 100px; /* Define a altura do contêiner .dark-wave como 100px */
+    margin: 30px auto; /* Define a margem superior como 30px e centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do contêiner .dark-wave */
+}
+
+.trabalhos .yellow-box {
+    background-color: #e7a920; /* Define a cor de fundo do contêiner .yellow-box como #e7a920 (dourado) */
+    width: 800px; /* Define a largura do contêiner .yellow-box como 800px */
+    height: 100px; /* Define a altura do contêiner .yellow-box como 100px */
+    margin: 30px auto; /* Define a margem superior como 30px e centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do contêiner .yellow-box */
 }
 
 
