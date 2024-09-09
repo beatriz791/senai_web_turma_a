@@ -91,9 +91,13 @@ nav #menu_principal {
 
 /* Estiliza a seção */
 section {
-    background-image: url(../img/divider-dark.png); /* Define uma imagem de fundo */
     width: 100%; /* Define a largura da seção para 100% do contêiner pai */
     height: 500px; /* Define a altura da seção para 500 pixels */
+
+}
+
+.regua{
+    background-image: url(../img/divider-dark.png); /* Define uma imagem de fundo */
     background-repeat: repeat-x; /* Faz a imagem de fundo se repetir horizontalmente */
     padding-top: 100px;
 }
@@ -135,53 +139,62 @@ section {
     margin: 0 auto; /* Centraliza o contêiner de texto horizontalmente */
 }
 
-.nossos {
-    width: 300px; /* Define a largura do contêiner .nossos como 300px */
-    margin: 0 auto; /* Centraliza o contêiner .nossos horizontalmente */
-    text-align: center; /* Centraliza o texto dentro do contêiner .nossos */
+.trabalhos {
+    height: 200px; /* Define a altura do elemento .trabalhos como 200 pixels */
+    width: 100%; /* Define a largura do elemento .trabalhos como 100% do contêiner pai */
 }
 
-.nossos h3 {
-    font-family: Montserrat, sans-serif; /* Define a fonte do texto h3 como Montserrat */
-    margin: 0; /* Remove as margens ao redor do texto h3 */
-    margin-top: 90px; /* Define a margem superior do texto h3 como 90px */
-    font-size: 24px; /* Define o tamanho da fonte do texto h3 como 24px */
-    color: #e7a920; /* Define a cor do texto h3 como #e7a920 (dourado) */
-    text-transform: uppercase; /* Transforma o texto h3 em letras maiúsculas */
-    letter-spacing: 11px; /* Define o espaçamento entre as letras do texto h3 como 11px */
-    font-weight: 300; /* Define o peso da fonte do texto h3 como 300 (leve) */
+.cabecalho {
+    min-width: 1200px; /* Define a largura mínima do elemento .cabecalho como 1200 pixels */
+    max-width: 1400px; /* Define a largura máxima do elemento .cabecalho como 1400 pixels */
+    margin: 0 auto; /* Centraliza o elemento .cabecalho horizontalmente */
+    text-align: center; /* Alinha o texto dentro do elemento .cabecalho ao centro */
 }
 
-.projetos {
-    width: 800px; /* Define a largura do contêiner .projetos como 800px */
-    height: 100px; /* Define a altura do contêiner .projetos como 100px */
-    margin: -14px auto; /* Define a margem superior como -14px e centraliza horizontalmente */
-    text-align: center; /* Centraliza o texto dentro do contêiner .projetos */
+.trabalhos .cabecalho h4 span {
+    color: #e7a920; /* Define a cor do texto como #e7a920 */
+    text-transform: uppercase; /* Transforma o texto para letras maiúsculas */
+    letter-spacing: 11px; /* Define o espaçamento entre as letras como 11 pixels */
+    font-weight: 300; /* Define a espessura da fonte como 300 (leve) */
+    font-family: Montserrat, sans-serif; /* Define a fonte como Montserrat, com fallback para sans-serif */
+    font-size: 24px; /* Define o tamanho da fonte como 24 pixels */
 }
 
-.projetos h1 {
-    font-family: Montserrat, sans-serif; /* Define a fonte do texto h1 como Montserrat */
-    margin: 0; /* Remove as margens ao redor do texto h1 */
-    margin-top: 0px; /* Define a margem superior do texto h1 como 0px */
-    font-size: 85px; /* Define o tamanho da fonte do texto h1 como 85px */
-    color: #000000; /* Define a cor do texto h1 como preto */
-    text-transform: uppercase; /* Transforma o texto h1 em letras maiúsculas */
-    font-weight: 800; /* Define o peso da fonte do texto h1 como 800 (negrito) */
+.trabalhos .cabecalho h4 b {
+    color: black; /* Define a cor do texto como preto */
+    font-family: Montserrat, sans-serif; /* Define a fonte como Montserrat, com fallback para sans-serif */
+    font-size: 85px; /* Define o tamanho da fonte como 85 pixels */
+    text-transform: uppercase; /* Transforma o texto para letras maiúsculas */
+    font-weight: 700; /* Define a espessura da fonte como 700 (negrito) */
+    margin: -14px 0px 0px 0px; /* Define a margem superior como -14 pixels e as outras margens como 0 */
 }
 
-.dark-wave {
-    width: 800px; /* Define a largura do contêiner .dark-wave como 800px */
-    height: 100px; /* Define a altura do contêiner .dark-wave como 100px */
-    margin: 30px auto; /* Define a margem superior como 30px e centraliza horizontalmente */
-    text-align: center; /* Centraliza o texto dentro do contêiner .dark-wave */
+.trabalhos .cabecalho h4 p {
+    font-family: 'Montserrat', sans-serif; /* Define a fonte como Montserrat, com fallback para sans-serif */
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+    margin: 12px 0 0 0; /* Define a margem superior como 12 pixels e as outras margens como 0 */
+    display: inline-block; /* Define o elemento como inline-block */
+    font-weight: 100; /* Define a espessura da fonte como 100 (muito leve) */
 }
 
-.trabalhos .yellow-box {
-    background-color: #e7a920; /* Define a cor de fundo do contêiner .yellow-box como #e7a920 (dourado) */
-    width: 800px; /* Define a largura do contêiner .yellow-box como 800px */
-    height: 100px; /* Define a altura do contêiner .yellow-box como 100px */
-    margin: 30px auto; /* Define a margem superior como 30px e centraliza horizontalmente */
-    text-align: center; /* Centraliza o texto dentro do contêiner .yellow-box */
+.trabalhos .mosaico {
+    min-width: 1200px; /* Define a largura mínima do elemento .mosaico como 1200 pixels */
+    max-width: 1400px; /* Define a largura máxima do elemento .mosaico como 1400 pixels */
+    margin: 0 auto; /* Centraliza o elemento .mosaico horizontalmente */
+}
+
+.trabalhos .mosaico .item {
+    height: 470px; /* Define a altura do elemento .item como 470 pixels */
+    width: 570px; /* Define a largura do elemento .item como 570 pixels */
+    background-image: url(../img/project-1.jpg); /* Define a imagem de fundo do elemento .item */
+    background-size: contain; /* Ajusta a imagem de fundo para caber dentro do elemento */
+    background-position: center; /* Centraliza a imagem de fundo */
+    transition: transform 0.5s ease; /* Adiciona uma transição suave para a transformação */
+}
+
+.trabalhos .mosaico .item:hover {
+    background-size: 110%; /* Aumenta o tamanho da imagem de fundo para 110% quando o elemento é hover */
+    background-position: center; /* Mantém a imagem de fundo centralizada */
 }
 
 
